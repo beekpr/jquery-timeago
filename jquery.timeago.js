@@ -105,6 +105,9 @@
       s = s.replace(/-/,"/").replace(/-/,"/");
       s = s.replace(/T/," ").replace(/Z/," UTC");
       s = s.replace(/([\+\-]\d\d)\:?(\d\d)/," $1$2"); // -04:00 -> -0400
+      if (s.search("UTC") == -1) {
+        s = s + " UTC";
+      }
       return new Date(s);
     },
     datetime: function(elem) {
