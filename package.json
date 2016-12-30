@@ -1,0 +1,22 @@
+{
+  "name": "timeago-bkpr",
+  "version": "1.0.3-bkpr",
+  "description": "Beekeeper fork of jQuery-timeago",
+  "main": "jquery.timeago.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beekpr/jquery-timeago.git"
+  },
+  "author": "Florian Dreschner <florian@beekeeper.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beekpr/jquery-timeago/issues"
+  },
+  "homepage": "https://github.com/beekpr/jquery-timeago#readme"
+}
