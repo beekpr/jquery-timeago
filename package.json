@@ -14,9 +14,20 @@
     "url": "git+https://github.com/beekpr/jquery-timeago.git"
   },
   "author": "Florian Dreschner <florian@beekeeper.io>",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+   "jquery": ">=1.2.3"
+  },
   "bugs": {
     "url": "https://github.com/beekpr/jquery-timeago/issues"
+  },
+  "browser": {
+   "timeago": "./node_modules/timeago/jquery.timeago.js"
   },
   "homepage": "https://github.com/beekpr/jquery-timeago#readme"
 }
